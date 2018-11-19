@@ -1,8 +1,10 @@
-Ownership is important when it comes to responsibility and motivation. By naming a tool, it becomes a thing. A thing that can be loved.
+Ownership is important when it comes to responsibility and motivation. 
 
-By choosing a pretty name it becomes harder to abandon it
+> #### success::
+>
+> By naming a tool, it becomes a thing. A thing that can be loved.
 
-you don’t want your baby to crash and fail during tests.
+By choosing a pretty name it becomes harder to abandon it. You don’t want your baby to crash and fail during tests.
 
 Naming can also be a hard part. Suddenly it becomes real - it’s a choice that requires responsibility. Naming forces you also to think about the future of your tool. Does it need a domain for documentation? Could a Github organisation be useful? Docker, Twitter, pypi?! [namechk ](https://namechk.com/)is a nice tool to check availability on multiple platforms.
 

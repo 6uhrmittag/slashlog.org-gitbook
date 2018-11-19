@@ -1,0 +1,68 @@
+{
+  "title": "Slashlog",
+  "author": "Marvin Heimbrodt",
+  "authorHomepage": "http://slashlog.org",
+  "description": "site description",
+  "copyright": "All Rights Reserved",
+  "plugins": [
+    "lightbox",
+    "sitemap",
+    "copy-code-button",
+    "github-embed",
+    "bootstrap-callout",
+    "noembed",
+    "nocache",
+    "-splitter",
+    "prism",
+    "-highlight",
+    "packt-fontsettings",
+    "codetabs",
+    "quiz",
+    "page-toc",
+    "livereload",
+    "search",
+    "lunr",
+    "fontsettings",
+    "theme-api",
+    "toggle-chapters",
+    "theme-default",
+    "-theme-code",
+    "-sharing",
+    "github"
+  ],
+  "pluginsConfig": {
+    "fontsettings": {
+      "family": "sans",
+      "size": 1
+    },
+    "quiz": {
+      "labels": {
+        "check": "Check my answers",
+        "showExplanation": "Explain",
+        "showCorrect": "Show all",
+        "explanationHeader": "Explanation"
+      },
+      "text": {
+        "noChosen": "Choose at least one answer",
+        "incomplete": "Some correct answers are missing"
+      },
+      "buttons": {
+        "showCorrect": true,
+        "showExplanation": true
+      }
+    },
+    "theme-api": {
+      "theme": "light"},
+    "sitemap": {
+      "hostname": "https://slashlog.org/"
+    },
+    "styles": {
+      "website": "styles/website.css"
+    },
+    "github": {
+      "url": "https://github.com/6uhrmittag"
+    }
+  }
+}
+
+
