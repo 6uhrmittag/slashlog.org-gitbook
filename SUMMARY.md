@@ -10,6 +10,3 @@
 ## bashblog
 * [Introducing Bashblog](bashblog/intro.md)
 * [Name your tool!](bashblog/naming.md)
-
-##   demo
-* [Demo](demo/untitled.md)
