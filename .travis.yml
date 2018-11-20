@@ -11,7 +11,8 @@ jobs:
         - npm install gitbook-cli -g # install gitbook
         - gitbook fetch 3.2.3 # fetch final stable version
         - gitbook install # add any requested plugins in book.json
-        - gitbok build
+        - npm i -g npm
+        - gitbook build
       deploy:
        provider: pages
        fqdn: slashlog.org
