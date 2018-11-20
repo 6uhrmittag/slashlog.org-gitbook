@@ -17,6 +17,7 @@ jobs:
         - gitbook install # add any requested plugins in book.json
         - npm i -g npm
         - gitbook build
+        - touch _book/.nojekyll
       deploy:
        provider: pages
        fqdn: slashlog.org
