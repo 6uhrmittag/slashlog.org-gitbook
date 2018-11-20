@@ -1,0 +1,24 @@
+sudo: false
+language: generic
+os:
+  - linux
+
+jobs:
+  include:
+    - stage: deploy gitbook
+      if: branch = master AND type = push
+      script:
+        - npm install gitbook-cli -g # install gitbook
+        - gitbook fetch 3.2.3 # fetch final stable version
+        - gitbook install # add any requested plugins in book.json
+        - gitbok build
+      deploy:
+       provider: pages
+       fqdn: slashlog.org
+       skip-cleanup: true
+       github-token: $GITHUB_TOKEN
+       committer-from-gh: true
+       keep-history: true
+       local-dir: _book
+       on:
+         branch: master
