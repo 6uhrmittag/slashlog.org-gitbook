@@ -2,7 +2,7 @@
 
 # [Rebranding](https://github.com/6uhrmittag/taskbutler/issues/14)
 
-As discussed in [naming your tool](../bashblog/naming.html), naming a tool is a great way to ensure it's quality. But naming a tool has also practical implications. When using APIs it's often required to register the app with its name. Since with this milestone I was using the Dropbox API, I had to find a pretty name for what was _todoist-progress_.
+As discussed in [naming your tool](../../bashblog/naming.html), naming a tool is a great way to ensure it's quality. But naming a tool has also practical implications. When using APIs it's often required to register the app with its name. Since with this milestone I was using the Dropbox API, I had to find a pretty name for what was _todoist-progress_.
 
 > You can't name your baby X
 
