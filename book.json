@@ -34,7 +34,7 @@
   "pluginsConfig": {
     "fontsettings": {
       "family": "sans",
-      "size": 2
+      "size": 1
     },
     "quiz": {
       "labels": {
